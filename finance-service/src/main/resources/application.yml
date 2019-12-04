@@ -1,0 +1,22 @@
+server:
+  port: 8092
+
+spring:
+  application:
+    name: finance-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      #        server-addr: ${nacos.addr}:${nacos.port}
+      config:
+        server-addr: 127.0.0.1:8848
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  config-location: classpath:mybatis-config.xml
+
+
