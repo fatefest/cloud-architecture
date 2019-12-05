@@ -1,0 +1,11 @@
+#测试用户sql
+CREATE TABLE `test_user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT ' ',
+  `name` varchar(255) CHARACTER SET gb2312 DEFAULT NULL,
+  `sex` int(1) DEFAULT NULL,
+  `id_card` varchar(32) CHARACTER SET gb2312 DEFAULT NULL,
+  `age` int(2) DEFAULT NULL,
+  `location` varchar(255) CHARACTER SET gb2312 DEFAULT NULL,
+  `mobile` varchar(20) CHARACTER SET gb2312 DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
