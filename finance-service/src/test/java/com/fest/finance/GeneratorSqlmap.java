@@ -13,10 +13,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author liuzhe
- * @date 2018/1/11
- */
 public class GeneratorSqlmap extends DefaultCommentGenerator {
 
     public void generator() throws Exception {

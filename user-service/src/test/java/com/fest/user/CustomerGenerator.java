@@ -5,11 +5,6 @@ import org.mybatis.generator.api.IntrospectedTable;
 import org.mybatis.generator.api.dom.java.Field;
 import org.mybatis.generator.internal.DefaultCommentGenerator;
 
-/**
- * Description:
- * author: yu.hb
- * Date: 2018-08-24
- */
 public class CustomerGenerator extends DefaultCommentGenerator {
 
     @Override
