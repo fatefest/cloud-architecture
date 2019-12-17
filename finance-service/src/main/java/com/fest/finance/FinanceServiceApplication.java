@@ -1,6 +1,8 @@
 package com.fest.finance;
 
+import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure;
 import org.mybatis.spring.annotation.MapperScan;
+import org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration;
@@ -23,10 +25,12 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
         WebSocketMessagingAutoConfiguration.class,
         WebSocketReactiveAutoConfiguration.class,
         HibernateJpaAutoConfiguration.class,
+        MybatisAutoConfiguration.class,
+        DruidDataSourceAutoConfigure.class
 })
 @EnableDiscoveryClient
 @EnableFeignClients
-@MapperScan("com.fest.finance.mapper")
+//@MapperScan("com.fest.finance.mapper")
 public class FinanceServiceApplication {
 
     public static void main(String[] args) {

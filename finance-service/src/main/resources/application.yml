@@ -13,10 +13,20 @@ spring:
       #        server-addr: ${nacos.addr}:${nacos.port}
       config:
         server-addr: 127.0.0.1:8848
+    stream:
+      kafka:
+        binder:
+          brokers: 192.168.2.18:9092
+          auto-create-topics: true
+      bindings:
+        output:
+          destination: test-topic
+        input:
+          destination: test-topic
+          group: test-group
 
-
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
-  config-location: classpath:mybatis-config.xml
+#mybatis:
+#  mapper-locations: classpath:mapper/*.xml
+#  config-location: classpath:mybatis-config.xml
 
 
