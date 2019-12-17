@@ -21,8 +21,18 @@ spring:
       bindings:
         output:
           destination: test-topic
+        output_1:
+          destination: test-topic-1
+        output_2:
+          destination: test-topic-2
         input:
           destination: test-topic
+          group: test-group
+        input_1:
+          destination: test-topic-1
+          group: test-group
+        input_2:
+          destination: test-topic-2
           group: test-group
 
 #mybatis:

@@ -23,9 +23,15 @@ public class StreamController {
     SourceProducer sourceProducer;
 
 
-    @PostMapping("/send")
-    public ResultResponse sendMsg(@RequestBody String msg){
-        sourceProducer.sendMessages(msg);
+    @PostMapping("/send1")
+    public ResultResponse sendMsg1(@RequestBody String msg){
+        sourceProducer.sendMessages1(msg);
+        return ResultResponse.ofSuccess("发送消息"+msg+"成功");
+    }
+
+    @PostMapping("/send2")
+    public ResultResponse sendMsg2(@RequestBody String msg){
+        sourceProducer.sendMessages2(msg);
         return ResultResponse.ofSuccess("发送消息"+msg+"成功");
     }
 
