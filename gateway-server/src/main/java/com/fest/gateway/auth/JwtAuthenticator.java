@@ -19,10 +19,10 @@ public class JwtAuthenticator implements Authenticator {
     public AuthResult auth(ServerWebExchange exchange) {
         String jwtToken = exchange.getRequest().getHeaders().getFirst("token");
         //TODO 校验jwtToken的合法性
-        if (jwtToken == null) {
-            return AuthResult.ofFailed("token不存在");
-        }
-        String token = (String) redisTemplate.opsForValue().get("token");
+//        if (jwtToken == null) {
+//            return AuthResult.ofFailed("token不存在");
+//        }
+//        String token = (String) redisTemplate.opsForValue().get("token");
         return AuthResult.ofSeccess("成功");
     }
 }

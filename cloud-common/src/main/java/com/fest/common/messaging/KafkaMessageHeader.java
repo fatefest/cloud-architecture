@@ -9,7 +9,7 @@ import java.io.Serializable;
 /**
  * @Author: yesitao
  * @Date: 2019/12/17 15:03
- * @Description:
+ * @Description:还未实现对kafka消息header的映射处理
  */
 public class KafkaMessageHeader implements Serializable {
 

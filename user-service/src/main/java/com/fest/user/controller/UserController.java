@@ -30,4 +30,9 @@ public class UserController {
         localUserService.updateUser(user);
     }
 
+    @GetMapping("/hi")
+    public String sayHi(@RequestParam String name){
+        return "hi "+ name;
+    }
+
 }

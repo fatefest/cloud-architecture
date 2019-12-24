@@ -19,7 +19,19 @@ spring:
             dataId: ${spring.application.name}-sentinel
             groupId: DEFAULT_GROUP
             ruleType: 0
-
+  zipkin:
+    sender:
+      type: web
+      #web模式要指定http，不然zipkin接收不到
+    base-url: http://127.0.0.1:9411/
+    enabled: true
+  sleuth:
+    sampler:
+      probability: 1.0
+    feign:
+      enabled: true
+      processor:
+        enabled: true
 
 logging:
   config: classpath:log4j2.xml

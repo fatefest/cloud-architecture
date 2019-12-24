@@ -1,0 +1,9 @@
+
+spring:
+  application:
+    name: zipkin-server
+# 2.12.6 开始使用armeriaServer 可以不配置boot自带的tomcat
+armeria:
+  ports:
+    - port: 9000
+

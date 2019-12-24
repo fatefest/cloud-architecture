@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gateway-server" />
+        <module name="finance-service" />
+        <module name="cloud-common" />
+        <module name="zipkin-server" />
         <module name="user-service" />
         <module name="business-web" />
-        <module name="cloud-common" />
-        <module name="finance-service" />
+        <module name="gateway-server" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,6 +23,7 @@
       <module name="finance-service" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
       <module name="user-service" options="-parameters" />
+      <module name="zipkin-server" options="-parameters" />
     </option>
   </component>
 </project>

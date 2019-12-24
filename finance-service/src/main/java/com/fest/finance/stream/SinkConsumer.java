@@ -1,5 +1,6 @@
 package com.fest.finance.stream;
 
+import com.fest.finance.domain.entity.CloudAsset;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.cloud.stream.messaging.Sink;
@@ -27,8 +28,8 @@ public class SinkConsumer {
     }
 
     @StreamListener(MySink.INPUT2)
-    public void inputConsumer2(Message<String> message) {
-        String payload = message.getPayload();
+    public void inputConsumer2(Message<CloudAsset> message) {
+        CloudAsset payload = message.getPayload();
         MessageHeaders headers = message.getHeaders();
         System.out.println("从Binding-"+Sink.INPUT+"收到信息-"+payload+"， headers："+headers);
     }
