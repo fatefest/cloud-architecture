@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="93ecf637-40d3-4517-8613-fd06af544552" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/fest/common/domain/vo/ResultResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/fest/common/domain/vo/ResultResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/fest/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/fest/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/fest/user/mapper/CloudUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/fest/user/mapper/CloudUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/fest/user/service/LocalUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/fest/user/service/LocalUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/fest/user/service/impl/LocalUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/fest/user/service/impl/LocalUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/mapper/CloudUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/CloudUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-config/USER_GROUP/user-database-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-config/USER_GROUP/user-database-config.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,11 +58,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
+            <state relative-caret-position="418">
               <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nacos-config/USER_GROUP/user-database-config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -106,11 +108,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3-sources.jar!/org/mybatis/spring/SqlSessionTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="425" column="44" selection-start-line="425" selection-start-column="38" selection-end-line="425" selection-end-column="48" />
+            <state relative-caret-position="4104">
+              <caret line="269" column="55" lean-forward="true" selection-start-line="269" selection-start-column="55" selection-end-line="269" selection-end-column="55" />
+              <folding>
+                <element signature="e#8892#8893#0" expanded="true" />
+                <element signature="e#8958#8959#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/fest/gateway/config/FilterConfig.java" />
         <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/fest/gateway/auth/Authenticator.java" />
         <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/fest/gateway/auth/AuthResult.java" />
         <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/fest/gateway/config/FilterExtensionConfig.java" />
@@ -225,6 +230,7 @@
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/fest/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/fest/common/domain/vo/ResultResponse.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/fest/user/service/impl/LocalUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/nacos-config/USER_GROUP/user-database-config.properties" />
       </list>
     </option>
   </component>
@@ -386,6 +392,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos-config" type="462c0819:PsiDirectoryNode" />
+              <item name="USER_GROUP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-architecture" type="b2602c69:ProjectViewProjectNode" />
@@ -646,7 +663,7 @@
       <workItem from="1577159766128" duration="7546000" />
       <workItem from="1577260267846" duration="824000" />
       <workItem from="1577323451649" duration="3491000" />
-      <workItem from="1577408856520" duration="774000" />
+      <workItem from="1577408856520" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="gateway 拦截认证串接&#10;去掉多余的东西">
       <created>1575533611581</created>
@@ -704,17 +721,24 @@
       <option name="project" value="LOCAL" />
       <updated>1577176771502</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="get接口报文包装">
+      <created>1577412300268</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577412300268</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167533000" />
+    <option name="totallyTimeSpent" value="167677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -760,7 +784,8 @@
     <MESSAGE value="自定义kafka多个生产者，消费者" />
     <MESSAGE value="增加zipkin链路监测" />
     <MESSAGE value="修改可编译" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改可编译" />
+    <MESSAGE value="get接口报文包装" />
+    <option name="LAST_COMMIT_MESSAGE" value="get接口报文包装" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -787,13 +812,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/fest/gateway/config/FilterExtensionConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/java/com/fest/zipkin/server/ZipkinServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1117,24 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/fest/user/service/impl/LocalUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#1056#1057#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -1165,8 +1165,37 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3-sources.jar!/org/mybatis/spring/SqlSessionTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="425" column="44" selection-start-line="425" selection-start-column="38" selection-end-line="425" selection-end-column="48" />
+        <state relative-caret-position="4104">
+          <caret line="269" column="55" lean-forward="true" selection-start-line="269" selection-start-column="55" selection-end-line="269" selection-end-column="55" />
+          <folding>
+            <element signature="e#8892#8893#0" expanded="true" />
+            <element signature="e#8958#8959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/fest/user/service/impl/LocalUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#1056#1057#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-config/USER_GROUP/user-database-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
