@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="93ecf637-40d3-4517-8613-fd06af544552" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-config/USER_GROUP/user-database-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-config/USER_GROUP/user-database-config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-web/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business-web/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance-service/src/test/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/finance-service/src/test/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/test/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/resources/generatorConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,28 +27,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/fest/user/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
-              <folding>
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/fest/common/domain/vo/ResultResponse.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -65,13 +45,27 @@
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nacos-config/USER_GROUP/user-database-config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="152">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-service/src/test/resources/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacos-config/DEFAULT_GROUP/business-web-sentinel">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -167,6 +161,7 @@
       <find>-ui</find>
       <find>port</find>
       <find>8080</find>
+      <find>yunche</find>
     </findStrings>
     <replaceStrings>
       <replace>:</replace>
@@ -180,9 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/fest/gateway/auth/Authenticator.java" />
-        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/fest/gateway/auth/AuthResult.java" />
-        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/fest/gateway/config/FilterExtensionConfig.java" />
         <option value="$PROJECT_DIR$/gateway-server/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/fest/gateway/auth/DefaultAuthenticator.java" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/fest/common/domain/vo/ResultInfo.java" />
@@ -231,6 +223,9 @@
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/fest/common/domain/vo/ResultResponse.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/fest/user/service/impl/LocalUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/nacos-config/USER_GROUP/user-database-config.properties" />
+        <option value="$PROJECT_DIR$/user-service/src/test/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/finance-service/src/test/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/business-web/src/main/resources/log4j2.xml" />
       </list>
     </option>
   </component>
@@ -397,6 +392,18 @@
               <item name="cloud-architecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-architecture" type="462c0819:PsiDirectoryNode" />
               <item name="nacos-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos-config" type="462c0819:PsiDirectoryNode" />
+              <item name="DEFAULT_GROUP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos-config" type="462c0819:PsiDirectoryNode" />
+              <item name="GLOBAL_GROUP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-architecture" type="b2602c69:ProjectViewProjectNode" />
@@ -663,7 +670,7 @@
       <workItem from="1577159766128" duration="7546000" />
       <workItem from="1577260267846" duration="824000" />
       <workItem from="1577323451649" duration="3491000" />
-      <workItem from="1577408856520" duration="918000" />
+      <workItem from="1577408856520" duration="1025000" />
     </task>
     <task id="LOCAL-00001" summary="gateway 拦截认证串接&#10;去掉多余的东西">
       <created>1575533611581</created>
@@ -728,15 +735,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577412300268</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改配置">
+      <created>1577412390929</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577412390929</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167677000" />
+    <option name="totallyTimeSpent" value="167784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -785,7 +798,8 @@
     <MESSAGE value="增加zipkin链路监测" />
     <MESSAGE value="修改可编译" />
     <MESSAGE value="get接口报文包装" />
-    <option name="LAST_COMMIT_MESSAGE" value="get接口报文包装" />
+    <MESSAGE value="修改配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -812,27 +826,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/java/com/fest/zipkin/server/ZipkinServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-zipkin/2.1.0.RELEASE/spring-cloud-sleuth-zipkin-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/sleuth/zipkin2/ZipkinProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
-          <folding>
-            <element signature="e#2567#2568#0" expanded="true" />
-            <element signature="e#2596#2597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/business-web/src/main/java/com/fest/business/BusinessApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1192,10 +1185,20 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-config/DEFAULT_GROUP/business-web-sentinel">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/nacos-config/USER_GROUP/user-database-config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="152">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/test/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
         </state>
       </provider>
     </entry>

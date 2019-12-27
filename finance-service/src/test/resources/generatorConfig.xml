@@ -14,8 +14,8 @@
         <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://192.168.2.18:3306/mytest?useUnicode=true&amp;characterEncoding=utf-8&amp;tinyInt1isBit=false"
-                        userId="yunche"
-                        password="123456">
+                        userId="root"
+                        password="root">
         </jdbcConnection>
 
 
