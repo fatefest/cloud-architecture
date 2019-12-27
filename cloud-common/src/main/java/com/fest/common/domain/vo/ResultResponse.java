@@ -17,6 +17,10 @@ public class ResultResponse<T> {
         return of(msg,true,data);
     }
 
+    public static <T> ResultResponse<T> ofSuccess(T data){
+        return of("",true,data);
+    }
+
     public static ResultResponse ofSuccess(String msg){
         return of(msg,true,null);
     }

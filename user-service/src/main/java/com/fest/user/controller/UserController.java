@@ -1,11 +1,13 @@
 package com.fest.user.controller;
 
+import com.fest.common.domain.vo.ResultResponse;
 import com.fest.user.domain.entity.CloudUser;
 import com.fest.user.service.LocalUserService;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @Author: yesitao
@@ -28,6 +30,11 @@ public class UserController {
     @PutMapping
     public void update(@RequestBody CloudUser user){
         localUserService.updateUser(user);
+    }
+
+    @GetMapping
+    public ResultResponse getUsers(){
+        return ResultResponse.ofSuccess(localUserService.getUsers());
     }
 
     @GetMapping("/hi")

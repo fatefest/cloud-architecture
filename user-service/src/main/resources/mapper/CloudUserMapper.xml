@@ -109,4 +109,12 @@
       mobile = #{mobile,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+
+  <select id="getUsers" resultType="com.fest.user.domain.entity.CloudUser">
+    select
+        age,
+        location,
+        mobile
+    from test_user
+  </select>
 </mapper>

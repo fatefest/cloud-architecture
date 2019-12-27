@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @Author: yesitao
@@ -33,5 +34,10 @@ public class LocalUserServiceImpl implements LocalUserService {
         }else{
             user.setAge(user.getId());
         }
+    }
+
+    @Override
+    public List<CloudUser> getUsers() {
+        return cloudUserMapper.getUsers();
     }
 }
