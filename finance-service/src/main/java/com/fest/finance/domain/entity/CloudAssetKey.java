@@ -1,5 +1,6 @@
 package com.fest.finance.domain.entity;
 
+
 public class CloudAssetKey {
     /**
      *  
@@ -26,4 +27,5 @@ public class CloudAssetKey {
     public void setAssetId(Integer assetId) {
         this.assetId = assetId;
     }
+
 }

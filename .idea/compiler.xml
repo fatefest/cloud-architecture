@@ -10,6 +10,7 @@
         <module name="cloud-common" />
         <module name="zipkin-server" />
         <module name="user-service" />
+        <module name="spring-boot-admin" />
         <module name="business-web" />
         <module name="gateway-server" />
       </profile>
@@ -22,6 +23,7 @@
       <module name="cloud-common" options="" />
       <module name="finance-service" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
+      <module name="spring-boot-admin" options="-parameters" />
       <module name="user-service" options="-parameters" />
       <module name="zipkin-server" options="-parameters" />
     </option>

@@ -36,3 +36,5 @@ hs_err_pid*
 /dubbo-admin/
 
 k8s/
+
+**/generatorConfig.xml
