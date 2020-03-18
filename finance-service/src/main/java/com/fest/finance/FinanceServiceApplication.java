@@ -30,7 +30,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 })
 @EnableDiscoveryClient
 @EnableFeignClients
-//@MapperScan("com.fest.finance.mapper")
+@MapperScan("com.fest.finance.mapper")
 public class FinanceServiceApplication {
 
     public static void main(String[] args) {

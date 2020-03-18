@@ -36,8 +36,8 @@ spring:
           destination: test-topic-2
           group: test-group
 
-#mybatis:
-#  mapper-locations: classpath:mapper/*.xml
-#  config-location: classpath:mybatis-config.xml
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  config-location: classpath:mybatis-config.xml
 
 
