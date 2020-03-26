@@ -27,9 +27,14 @@ public class UserController {
         localUserService.saveUser(user);
     }
 
-    @PutMapping
+    @PutMapping("/update")
     public void update(@RequestBody CloudUser user){
         localUserService.updateUser(user);
+    }
+
+    @PutMapping("/update1")
+    public void update1(@RequestBody CloudUser user){
+        localUserService.updateUser1(user);
     }
 
     @GetMapping

@@ -28,12 +28,28 @@ public class LocalUserServiceImpl implements LocalUserService {
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void updateUser(CloudUser user){
-        cloudUserMapper.insertSelective(user);
-        if(user.getId()>6){
-            throw new RuntimeException("错误");
-        }else{
-            user.setAge(user.getId());
+//        if(user.getId()>6){
+//            throw new RuntimeException("错误");
+//        }else{
+//            user.setAge(user.getId());
+//        }
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
+        cloudUserMapper.updateByPrimaryKey(user);
+    }
+
+    @Transactional(rollbackFor = Exception.class)
+    @Override
+    public void updateUser1(CloudUser user){
+//        if(user.getId()>6){
+//            throw new RuntimeException("错误");
+//        }else{
+//            user.setAge(user.getId());
+//        }
+        cloudUserMapper.updateByPrimaryKey(user);
     }
 
     @Override

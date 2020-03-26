@@ -36,6 +36,11 @@ spring:
 logging:
   config: classpath:log4j2.xml
 
+management:
+  health:
+    redis:
+      enabled: false
+
 ribbon:
   ReadTimeout: 5000
 

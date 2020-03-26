@@ -10,9 +10,6 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-        metadata:
-          management:
-            context-path: /admin/actuator
       #        server-addr: ${nacos.addr}:${nacos.port}
       config:
         server-addr: 127.0.0.1:8848
@@ -26,6 +23,17 @@ spring:
     web:
       enabled: true
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+  health:
+    redis:
+      enabled: false
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml

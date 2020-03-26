@@ -15,5 +15,7 @@ public interface LocalUserService {
 
     void updateUser(CloudUser user);
 
+    void updateUser1(CloudUser user);
+
     List<CloudUser> getUsers();
 }
